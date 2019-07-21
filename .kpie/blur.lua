@@ -19,3 +19,4 @@ if ( class == "code-oss" or
    os.execute("xprop -id " .. xid .. " -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY 0xcfffffff");
    os.execute("xprop -id " .. xid .. " -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0");
 end
+
